@@ -10,7 +10,9 @@ A command-line Python program to log income and expenses and get simple analytic
 5. Remove duplicate transactions
 6. Split transactions into income vs. expense
 7. Show total income, total expense, and net balance
-8. Data is saved to `data.json` and reloaded automatically next time you run it
+8. Count total transactions and unique categories
+9. Find the Kth smallest expense
+10. Exit
 
 ## Technologies Used
 - Python 3
