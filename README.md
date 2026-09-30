@@ -1,32 +1,37 @@
-# Personal Finance Tracker
+# FinTrack - Personal Finance Tracker
 
-A command-line Python program to log income and expenses and get simple analytics — built for the CSE1021 (Introduction to Problem Solving and Programming) evaluated course project.
+A command-line Python program to log income and expenses and perform simple financial analysis. FinTrack was developed as a CSE1021 (Introduction to Problem Solving and Programming) course project.
 
 ## Features
+
 1. Add a transaction (category, amount, income/expense)
 2. View all transactions
 3. Find the highest expense
-4. View transactions newest-first (reversed order)
+4. View transactions in newest-first order
 5. Remove duplicate transactions
-6. Split transactions into income vs. expense
+6. Split transactions into income and expenses
 7. Show total income, total expense, and net balance
 8. Count total transactions and unique categories
 9. Find the Kth smallest expense
-10. Exit
+10. Exit the program
 
 ## Technologies Used
+
 - Python 3
-- Standard library only (`json`) — no external packages needed
+- JSON for persistent data storage
+- Python standard library (`json` and `os`)
+- No external packages are required
 
 ## How to Run
-1. Make sure Python 3 is installed. Check with:python --version
-2. Clone this repository:
-git clone https://github.com/astitva0812/FinTrack.git
-cd FinTrack
-3. Run the program: python main.py
-4.Use the on-screen menu (type a number 1–10 and press Enter)
 
-## Notes
--`main_backup.py` is an identical backup copy of `main.py`, provided in case there are any issues opening the primary file.
-- Transaction data is stored in `data.json` in the same folder. This file is created automatically the first time you add a transaction.
-- No installation of extra packages is required.
+### Requirements
+
+- Python 3 installed on your computer
+- Git installed if you want to clone the repository
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/astitva0812/FinTrack.git
