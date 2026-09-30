@@ -20,8 +20,8 @@ A command-line Python program to log income and expenses and get simple analytic
 
 ## How to Run
 1. Make sure Python 3 is installed. Check with:python --version
-2. Clone this repository:https://github.com/0812/finance-tracker.git
-cd finance-tracker
+2. git clone https://github.com/astitva0812/FinTrack.git
+cd FinTrack
 3. Run the program: python main.py
 4. Use the on-screen menu (type a number 1–8 and press Enter) to interact with it.
 
