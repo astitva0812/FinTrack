@@ -1,0 +1,29 @@
+# FinTrack - System Design
+
+## 1. System Overview
+
+FinTrack is a command-line personal finance tracking program developed using Python.
+
+The system allows a user to enter financial transactions, store them in a JSON file, and perform different operations on the stored transaction data.
+
+The overall system can be represented as:
+
+```text
+User
+  |
+  v
+Command Line Interface
+  |
+  v
+Transaction Processing
+  |
+  +----------------------+
+  |                      |
+  v                      v
+Transaction Operations   Financial Analysis
+  |                      |
+  +----------+-----------+
+             |
+             v
+        JSON Storage
+        (data.json)
