@@ -4,7 +4,7 @@
 
 Managing personal finances manually can make it difficult to keep track of income, expenses, spending categories, and the overall balance. A simple system is needed to record financial transactions and perform basic calculations on the stored data.
 
-FinTrack is a Python-based command-line application designed to help users record and analyse their personal financial transactions. The project applies fundamental programming and problem-solving concepts from CSE1021, including algorithms, conditional statements, loops, lists, dictionaries, sets, functions, and JSON-based data storage.
+FinTrack is a Python-based command-line application designed to help users record and analyse their personal financial transactions. The project applies fundamental programming and problem-solving concepts from CSE1021, including algorithms, conditional statements, loops, lists, dictionaries, sets, and JSON-based data storage.
 
 The application allows users to add transactions, view stored transactions, analyse expenses, calculate income and balance, remove duplicate transactions, separate income and expenses, and find the Kth smallest expense.
 
@@ -177,7 +177,6 @@ FinTrack applies concepts from the CSE1021 Introduction to Problem Solving and P
 | Python data types and expressions    | Strings, integers, floating-point values, lists, dictionaries, and sets are used. |
 | Conditional statements               | `if`, `elif`, and `else` are used to process menu choices and input.              |
 | Loops                                | `while` and `for` loops are used for menu repetition and transaction processing.  |
-| Functions                            | Functions are used to organize different operations performed by the program.     |
 | Lists                                | Transactions are stored and processed using lists.                                |
 | Dictionaries                         | Individual transactions and user data are represented using dictionaries.         |
 | Sets                                 | Sets are used to determine unique transaction categories.                         |
